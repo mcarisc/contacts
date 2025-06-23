@@ -16,5 +16,16 @@
       </schema-mapping>
       <load-sources>user_and_system_sources</load-sources>
     </data-source>
+    <data-source name="contactsdb@localhost" uuid="c5a89e3c-e938-4319-bb85-b0856beaa357">
+      <database-info product="MySQL" version="5.5.5-10.4.19-MariaDB" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)" dbms="MARIADB" exact-version="10.4.19" exact-driver-version="8.2">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+        <jdbc-catalog-is-schema>true</jdbc-catalog-is-schema>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <user-name>root</user-name>
+      <schema-mapping />
+      <load-sources>user_and_system_sources</load-sources>
+    </data-source>
   </component>
 </project>
